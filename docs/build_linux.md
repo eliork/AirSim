@@ -22,7 +22,7 @@ Please see instructions [here](https://github.com/Microsoft/AirSim/blob/master/d
 
 ```bash
 # go to the folder where you clone GitHub projects
-git clone -b 4.24 https://github.com/EpicGames/UnrealEngine.git
+git clone -b 4.24 https://github.com/EpicGames/UnrealEngine.git *************** THIS IS WRONG!!!*****************
 cd UnrealEngine
 ./Setup.sh
 ./GenerateProjectFiles.sh
@@ -31,7 +31,7 @@ make
 
 #### macOS - Download Unreal Engine
 
-1. [Download](https://www.unrealengine.com/download) the Epic Games Launcher. While the Unreal Engine is open source and free to download, registration is still required.
+1. [Download](https://www.unrealengine.com/download) the Epic Games Launcher. While the Unreal Engine is open source and free to download, registration is still required. 
 2. Run the Epic Games Launcher, open the `Library` tab on the left pane.
 Click on the `Add Versions` which should show the option to download **Unreal 4.24** as shown below. If you have multiple versions of Unreal installed then **make sure 4.24 is set to `current`** by clicking down arrow next to the Launch button for the version.
 
